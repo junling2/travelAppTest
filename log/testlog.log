@@ -43,3 +43,13 @@
 2021-11-27 18:53:16,262 - com.travelAppTest.testCases.TCBaseClass -INFO - Password is entered
 2021-11-27 18:53:17,825 - com.travelAppTest.testCases.TCBaseClass -INFO - Submit button pressed
 2021-11-27 18:53:17,855 - com.travelAppTest.testCases.TCBaseClass -INFO - Dashboard is loaded
+2021-11-28 14:42:59,464 - com.travelAppTest.testCases.TCBaseClass -INFO - URL is opened
+2021-11-28 14:42:59,637 - com.travelAppTest.testCases.TCBaseClass -INFO - Username is entered
+2021-11-28 14:42:59,781 - com.travelAppTest.testCases.TCBaseClass -INFO - Password is entered
+2021-11-28 14:43:02,486 - com.travelAppTest.testCases.TCBaseClass -INFO - Submit button pressed
+2021-11-28 14:43:02,519 - com.travelAppTest.testCases.TCBaseClass -INFO - Dashboard is loaded
+2021-11-28 14:45:14,174 - com.travelAppTest.testCases.TCBaseClass -INFO - URL is opened
+2021-11-28 14:45:14,353 - com.travelAppTest.testCases.TCBaseClass -INFO - Username is entered
+2021-11-28 14:45:14,472 - com.travelAppTest.testCases.TCBaseClass -INFO - Password is entered
+2021-11-28 14:45:16,592 - com.travelAppTest.testCases.TCBaseClass -INFO - Submit button pressed
+2021-11-28 14:45:16,618 - com.travelAppTest.testCases.TCBaseClass -INFO - Dashboard is loaded

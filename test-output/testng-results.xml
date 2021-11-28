@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-28T02:53:11Z" name="travelAppTest" finished-at="2021-11-28T02:53:18Z" duration-ms="6875">
+  <suite started-at="2021-11-28T22:45:09Z" name="travelAppTest" finished-at="2021-11-28T22:45:17Z" duration-ms="7848">
     <groups>
     </groups>
-    <test started-at="2021-11-28T02:53:11Z" name="TravelApp Test" finished-at="2021-11-28T02:53:18Z" duration-ms="6875">
+    <test started-at="2021-11-28T22:45:09Z" name="TravelApp Test" finished-at="2021-11-28T22:45:17Z" duration-ms="7848">
       <class name="com.travelAppTest.testCases.TC_LoginTest_001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.travelAppTest.testCases.TC_LoginTest_001@7b02881e]" started-at="2021-11-28T02:53:11Z" name="setup" finished-at="2021-11-28T02:53:13Z" duration-ms="2267" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.travelAppTest.testCases.TC_LoginTest_001@15ca7889]" started-at="2021-11-28T22:45:09Z" name="setup" finished-at="2021-11-28T22:45:12Z" duration-ms="2173" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.travelAppTest.testCases.TC_LoginTest_001@7b02881e]" started-at="2021-11-28T02:53:13Z" name="loginTest" finished-at="2021-11-28T02:53:17Z" duration-ms="3892" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.travelAppTest.testCases.TC_LoginTest_001@15ca7889]" started-at="2021-11-28T22:45:12Z" name="loginTest" finished-at="2021-11-28T22:45:16Z" duration-ms="4577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.travelAppTest.testCases.TC_LoginTest_001@7b02881e]" started-at="2021-11-28T02:53:17Z" name="tearDown" finished-at="2021-11-28T02:53:18Z" duration-ms="694" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.travelAppTest.testCases.TC_LoginTest_001@15ca7889]" started-at="2021-11-28T22:45:16Z" name="tearDown" finished-at="2021-11-28T22:45:17Z" duration-ms="715" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

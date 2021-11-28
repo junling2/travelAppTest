@@ -2,6 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="travelAppTest">
+	<listeners>
+		<listener class-name="com.travelAppTest.utilities.Reporting"/>
+	</listeners>
+	
 	<test name="TravelApp Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
