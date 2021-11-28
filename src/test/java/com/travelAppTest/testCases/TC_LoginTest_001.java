@@ -1,5 +1,6 @@
 package com.travelAppTest.testCases;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 import com.travelAppTest.pageObjects.LoginPage;
 import org.openqa.selenium.By;
@@ -12,7 +13,7 @@ public class TC_LoginTest_001 extends TCBaseClass {
 	private String EXPECTED_TITLE = "Dashboard - PHPTRAVELS";
 	
 	@Test
-    public void loginTest() {
+    public void loginTest() throws IOException {
 		driver.get(baseURL);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         logger.info("URL is opened");
@@ -28,6 +29,14 @@ public class TC_LoginTest_001 extends TCBaseClass {
         WebDriverWait waitLogin = new WebDriverWait(driver, 30);
 		waitLogin.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//title")));
         logger.info("Dashboard is loaded");
-        Assert.assertEquals(driver.getTitle(), EXPECTED_TITLE);      
+        
+        if (driver.getTitle().equals(EXPECTED_TITLE)) {
+        	logger.info("Login Test Passed");
+        	Assert.assertTrue(true);       	
+        } else {
+        	logger.info("Login Test Failed");
+        	screenShot(driver, "loginTest");
+        	Assert.assertTrue(false);       	
+        }
     }
 }

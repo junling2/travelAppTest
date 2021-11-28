@@ -53,12 +53,10 @@ public class Reporting extends TestListenerAdapter{
 		eTest = extentReports.createTest(result.getName());
 		eTest.log(Status.FAIL, MarkupHelper.createLabel(result.getName(), ExtentColor.RED));
 		
-		String screenshotPathString = System.getProperty("user.dir") + "\\Screenshots\\" + result.getName() + ".png";
-		
-		File file = new File(screenshotPathString);
-		
+		String screenshotPathString = System.getProperty("user.dir") + "\\Screenshots\\" + result.getName() + ".png";		
+		File file = new File(screenshotPathString);		
 		if (file.exists()) {
-			eTest.fail("Screenshot shown below:" + eTest.addScreenCaptureFromPath(screenshotPathString));
+			eTest.addScreenCaptureFromPath(screenshotPathString);
 		}				
 	}
 	
