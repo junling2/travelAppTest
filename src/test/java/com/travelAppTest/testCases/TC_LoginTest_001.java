@@ -14,7 +14,7 @@ public class TC_LoginTest_001 extends TCBaseClass {
 	
 	@Test
     public void loginTest() throws IOException {
-		driver.get(baseURL);
+		driver.get(baseURL + "/login");
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         logger.info("URL is opened");
 

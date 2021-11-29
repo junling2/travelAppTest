@@ -17,3 +17,10 @@
 2021-11-28 15:28:02,928 - com.travelAppTest.testCases.TCBaseClass -INFO - Dashboard is loaded
 2021-11-28 15:28:02,935 - com.travelAppTest.testCases.TCBaseClass -INFO - Login Test Failed
 2021-11-28 15:28:03,131 - com.travelAppTest.testCases.TCBaseClass -INFO - Screenshot Taken
+2021-11-28 17:54:56,946 - com.travelAppTest.testCases.TCBaseClass -INFO - URL is opened
+2021-11-28 17:54:57,144 - com.travelAppTest.testCases.TCBaseClass -INFO - Username is entered
+2021-11-28 17:54:57,265 - com.travelAppTest.testCases.TCBaseClass -INFO - Password is entered
+2021-11-28 17:54:59,029 - com.travelAppTest.testCases.TCBaseClass -INFO - Submit button pressed
+2021-11-28 17:54:59,071 - com.travelAppTest.testCases.TCBaseClass -INFO - Dashboard is loaded
+2021-11-28 17:54:59,079 - com.travelAppTest.testCases.TCBaseClass -INFO - Login Test Passed
+2021-11-28 17:55:05,856 - com.travelAppTest.testCases.TCBaseClass -INFO - Hotel Search Page loaded successfully
